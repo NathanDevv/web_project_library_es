@@ -362,36 +362,45 @@ ul {
 }
 
 .footer__columns {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
 .footer__column_content_hours {
   list-style-type: none;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
   list-style-type: none;
+  margin-left: 80px;
 }
 
 .footer__logo {
   width: 58px;
   height: 80px;
+  margin-bottom: 100px;
 }
 
 .footer__column-heading {
   color: #fff;
+  margin-top: 0px;
   margin-bottom: 20px;
+  justify-content: flex-end;
 }
 
 .footer__list {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__list-item {
   color: #fff;
-  margin-top: 20px;
-  margin-bottom: 16px;
+  padding-top: 16px;
 }
 
 .footer__column-link {
@@ -403,8 +412,9 @@ ul {
   width: 16px;
   height: 16px;
   color: #fff;
+  margin-right: 10px;
 }
 
 .footer__copyright {
-  top: 100px;
+  font-style: medium;
 }
